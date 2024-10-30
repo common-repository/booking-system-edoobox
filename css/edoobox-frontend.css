@@ -1,0 +1,66 @@
+.stacktable {
+    width: 100%
+}
+
+.st-head-row {
+    padding-top: 1em
+}
+
+.st-head-row.st-head-row-main {
+    font-size: 1.5em;
+    padding-top: 0
+}
+
+.st-key {
+    padding-right: 1%;
+    padding-left: 2%
+}
+
+.st-val {
+    padding-left: 1%
+}
+
+.stacktable.large-only {
+    display: table
+}
+
+.stacktable.small-only {
+    display: none
+}
+
+@media (max-width: 800px) {
+    .stacktable.large-only {
+        display: none
+    }
+
+    .stacktable.small-only {
+        display: table
+    }
+}
+
+.ed-cal-btns-grp {
+    text-align: right
+}
+
+.popover-content h3 {
+    margin-top: 0
+}
+
+.popover-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.edoobox-plugin .ed-cal-popover{
+    padding: 15px 0 15px 0;
+    z-index: 1031;
+}
+
+.ed-login {
+    display: none
+}
+
+.edlangs-dropdown {
+    display: none !important
+}

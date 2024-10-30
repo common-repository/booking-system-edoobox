@@ -1,0 +1,22 @@
+{
+    "name": "edoobox/plugin",
+    "description": "edoobox online booking system integration plugin.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Etzensperger Informatik AG",
+            "email": "support@edoobox.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Edoobox\\": "./includes",
+            "PluginTests\\": "./tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

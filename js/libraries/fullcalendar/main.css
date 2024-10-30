@@ -1,0 +1,82 @@
+.edoobox-plugin #calendar.fc {
+    font-size: 1em;
+}
+
+.edoobox-plugin #calendar .fc-button {
+    font-size: 0.8em;
+    padding: 0.15em 0.6em;
+}
+
+.edoobox-plugin #calendar .fc-button-group {
+    min-width: 6em;
+}
+
+.edoobox-plugin #calendar.fc table {
+    margin: 0;
+}
+
+.edoobox-plugin #calendar .fc-toolbar-title {
+    font-size: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.edoobox-plugin #calendar .fc-h-event,
+.edoobox-plugin #calendar .fc-v-event {
+    background-color: #3788d8;
+    background-color: var(--fc-event-bg-color, #3788d8);
+}
+
+.edoobox-plugin #calendar.fc .fc-button .fc-icon {
+    font-size: 1.25em;
+}
+
+.edoobox-plugin #calendar.fc .truncate,
+.edoobox-plugin #calendar.fc .fc-event-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.popover-content .close {
+    top: 4px !important;
+}
+
+.edoobox-plugin .popover {
+    max-width: unset !important;
+}
+
+.edoobox-plugin .dl-horizontal dt {
+    width: unset !important;
+}
+
+.edoobox-plugin .dl-horizontal dd {
+    margin-left: 2em !important;
+    padding-left: 0 !important;
+}
+
+.edoobox-plugin .popover-content .ed-cal-btn {
+    margin-left: 1rem;
+}
+
+.edoobox-plugin .popover-content .btn-undefined {
+    display: none;
+}
+
+.edoobox-plugin .popover-content {
+    padding-bottom: 1em !important;
+    padding-top: 1em !important;
+}
+
+.edoobox-plugin .img-responsive {
+    margin-bottom: 1em !important;
+}
+
+.edoobox-plugin .popover .arrow {
+    display: none !important;
+}
+
+.edoobox-plugin .popover {
+    z-index: 10000 !important;
+}

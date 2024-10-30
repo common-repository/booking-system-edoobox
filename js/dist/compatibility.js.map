@@ -1,0 +1,1 @@
+{"version":3,"file":"compatibility.js","sources":["../compatibility.ts"],"sourcesContent":["if (typeof L === \"function\" && window.L?.map) {\n    L = window.L;\n}\n"],"names":["_a"],"mappings":"AAAA,IAAAA;AAAI,OAAO,KAAM,gBAAcA,IAAA,OAAO,MAAP,gBAAAA,EAAU,SACrC,IAAI,OAAO;"}

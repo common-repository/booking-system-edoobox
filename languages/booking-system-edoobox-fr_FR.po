@@ -1,0 +1,668 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking System Edoobox\n"
+"POT-Creation-Date: 2024-04-05 11:23+0200\n"
+"PO-Revision-Date: 2024-04-05 11:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: booking-system-edoobox.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: includes/Base/SettingsLinks.php:17
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/Pages/Admin.php:29 views/view.options.php:7
+msgid "Options"
+msgstr "Options"
+
+#: includes/Pages/Admin.php:37
+msgid "edoobox booking system"
+msgstr "système de réservation Edoobox"
+
+#: includes/Pages/Admin.php:53 includes/Pages/Admin.php:54
+#: views/view.page-indexing.php:5
+msgid "Page Indexing"
+msgstr "Indexation des pages"
+
+#: includes/Pages/Admin.php:61 includes/Pages/Admin.php:62
+#: views/view.options.php:252 views/view.shortcode-pro.php:7
+msgid "Shortcode Pro"
+msgstr "Shortcode Pro"
+
+#: includes/Pages/Admin.php:69 includes/Pages/Admin.php:70
+#: views/view.caching.php:5
+msgid "Caching"
+msgstr "Caching"
+
+#: includes/Pages/Admin.php:77 includes/Pages/Admin.php:78
+#: views/view.maps.google.php:5
+msgid "Google Maps"
+msgstr ""
+
+#: includes/Requests/Helpers/Request.php:37
+msgid "Edoobox Could not fetch Api Data: "
+msgstr "Edoobox n'a pas pu aller chercher Api Data : "
+
+#: views/components/cmp.google-maps-missing.php:4
+msgid "Please deposit your Google Maps API key."
+msgstr ""
+
+#: views/components/cmp.google-maps-missing.php:7
+msgid "Visit the following page for more information: "
+msgstr ""
+
+#: views/components/cmp.view-title.php:19
+msgid "The online booking system"
+msgstr "Le système de réservation en ligne"
+
+#: views/components/cmp.view-title.php:23
+msgid "Developers only"
+msgstr "Pour les développeurs"
+
+#: views/view.caching.php:11
+msgid ""
+"Caching has pros and cons. While it speeds up pageloading, it may cause the "
+"page to show outdated data. So a lower value will result in longer loading "
+"times, but more likely correct data. If edoobox seems slow however, we "
+"recommend adding a few minutes more."
+msgstr ""
+"La mise en cache a ses avantages et ses inconvénients. Bien qu'elle accélère "
+"le chargement des pages, elle peut entraîner l'affichage de données "
+"obsolètes. Une valeur inférieure entraînera donc des temps de chargement "
+"plus longs, mais il est plus probable que les données soient correctes. Si "
+"edoobox semble toutefois lent, nous recommandons d'ajouter quelques minutes "
+"de plus."
+
+#: views/view.caching.php:17
+msgid "Plugin Cache"
+msgstr "Cache du plugin"
+
+#: views/view.caching.php:29
+msgid "Caching Time (Minutes)"
+msgstr "Temps de mise en cache (minutes)"
+
+#: views/view.caching.php:35
+msgid "Hours"
+msgstr "Heures d'ouverture"
+
+#: views/view.caching.php:36
+msgid "Define how long edoobox pages should be cached."
+msgstr "Définissez la durée de mise en cache des pages de l'edoobox."
+
+#: views/view.caching.php:40 views/view.caching.php:44
+msgid "Flush Cache"
+msgstr "Cache de chasse d'eau"
+
+#: views/view.caching.php:47
+msgid ""
+"By flushing the cache, you will immediately see changes in displayed pages."
+msgstr ""
+"En vidant le cache, vous verrez immédiatement les changements dans les pages "
+"affichées."
+
+#: views/view.caching.php:57
+msgid "Design Cache"
+msgstr "Cache du design"
+
+#: views/view.caching.php:61
+msgid ""
+"The edoobox plugin minifies any custom styles, whenever that styles is "
+"loaded for the first time. From then on the minifies style is loaded and is "
+"no longer minified again. Should you need to minify the style again you can "
+"delete the references to the minified versions below."
+msgstr ""
+"Le plugin edoobox minifie tout style personnalisé, chaque fois que ce style "
+"est chargé pour la première fois. A partir de là, le style minifié est "
+"chargé et n'est plus minifié à nouveau. Si vous avez besoin de minifier le "
+"style à nouveau, vous pouvez supprimer les références aux versions minifiées "
+"ci-dessous."
+
+#: views/view.caching.php:68
+msgid "Remove All"
+msgstr "Retirer tout"
+
+#: views/view.caching.php:93
+msgid "Nothing cached yet."
+msgstr "Rien n'a encore été mis en cache."
+
+#: views/view.maps.google.php:20
+msgid "Google Maps API Key"
+msgstr ""
+
+#: views/view.maps.google.php:33
+msgid "Here you can find all the necessary instruction: "
+msgstr ""
+
+#: views/view.maps.google.php:37
+msgid "Activate Google Maps for the Plugin"
+msgstr ""
+
+#: views/view.maps.google.php:41
+msgid "Add Google Maps in your Design Manager"
+msgstr ""
+
+#: views/view.options.php:14
+msgid ""
+"1. To configure your edoobox Booking Plugin, you must <a href=\"https://app1."
+"edoobox.com/login/signup\">create an account</a> / <a href=\"https://app1."
+"edoobox.com/login\">login</a>"
+msgstr ""
+"1. pour configurer votre plugin de réservation edoobox, vous avez besoin de "
+"<a href=\"https://app1.edoobox.com/login/signup\" target=\"_blank\">créer un "
+"compte </a> / <a href=\"https://app1.edoobox.com/login\" "
+"target=\"_blank\">Login ici </a>"
+
+#: views/view.options.php:15
+msgid ""
+"2. Copy your account code and public key from your edoobox account. You will "
+"find these Information Under the account Shortcut (Top Left)> Settings> API "
+"Access Management> Public Key."
+msgstr ""
+"2. copiez l'abréviation de votre compte et la clé Privat et secrète de votre "
+"compte edoobox. Vous trouverez ces informations sous Raccourcis de compte "
+"(En haut à gauche) > Paramètres > Gestion des accès à l'API."
+
+#: views/view.options.php:16
+msgid "3. Copy the account code and the public key into the appropriate boxes"
+msgstr ""
+"3. copier l'abréviation du compte et la clé Privat dans les cases appropriées"
+
+#: views/view.options.php:17
+msgid "4. Integrate edoobox with the shortcode generator on your side."
+msgstr "4. intégrez edoobox avec le Shortcode Generator de votre côté."
+
+#: views/view.options.php:41
+msgid "Use API V2"
+msgstr ""
+
+#: views/view.options.php:54
+msgid ""
+"If you are using edoobox V2, then activate this setting and add V2 API Keys"
+msgstr ""
+
+#: views/view.options.php:63
+msgid "Choose Environment"
+msgstr ""
+
+#: views/view.options.php:71
+msgid "APP 1 (Default)"
+msgstr ""
+
+#: views/view.options.php:74
+msgid "APP 2"
+msgstr ""
+
+#: views/view.options.php:80
+msgid ""
+"If your edoobox account was created after 01.06.2023, select APP 2. To "
+"determine which environment you need to select, check out the following "
+"documentation: "
+msgstr ""
+
+#: views/view.options.php:82
+msgid "What environment do I need to select?"
+msgstr ""
+
+#: views/view.options.php:94
+#, fuzzy
+#| msgid " Private API Key"
+msgid "Private API Key"
+msgstr " Clé API Privat"
+
+#: views/view.options.php:106
+#, fuzzy
+#| msgid ""
+#| " You can find the Private Key at the top link in your edoobox account."
+msgid "You can find the Private Key at the top link in your edoobox account."
+msgstr ""
+" Vous pouvez trouver la clé privée au lien supérieur de votre compte edoobox."
+
+#: views/view.options.php:115
+#, fuzzy
+#| msgid " Secret API Key"
+msgid "Secret API Key"
+msgstr " Clé API secrète"
+
+#: views/view.options.php:124
+#, fuzzy
+#| msgid ""
+#| " You can find the Secret API Key at the top link in your edoobox account."
+msgid ""
+"You can find the Secret API Key at the top link in your edoobox account."
+msgstr ""
+" Vous pouvez trouver la Clé secrète de l'API dans votre compte edoobox sous "
+"les paramètres."
+
+#: views/view.options.php:138
+msgid "Check API Credentials"
+msgstr "Vérifier les références de l'API"
+
+#: views/view.options.php:149
+#, fuzzy
+#| msgid " edoobox Account Code"
+msgid "edoobox Account Code"
+msgstr " Code de compte edoobox"
+
+#: views/view.options.php:158
+#, fuzzy
+#| msgid " You can find the account code above link in your edoobox account."
+msgid "You can find the account code above link in your edoobox account."
+msgstr ""
+" Vous trouverez le lien du raccourci du compte en haut de votre compte "
+"edoobox."
+
+#: views/view.options.php:166
+#, fuzzy
+#| msgid " Design Select"
+msgid "Design Select"
+msgstr " Sélectionnez le design"
+
+#: views/view.options.php:174
+#, fuzzy
+#| msgid " Standard Design (Standard)"
+msgid "Standard Design(Standard)"
+msgstr " Design standard (standard)"
+
+#: views/view.options.php:177
+#, fuzzy
+#| msgid " Standard BootStrap Design from Website"
+msgid "Standard BootStrap Design from Website"
+msgstr " Copier le design standard de BootStrap à partir du site web"
+
+#: views/view.options.php:184
+#, fuzzy
+#| msgid ""
+#| " Choose if you want to adopt the design from the edoobox account or "
+#| "website design."
+msgid ""
+"Choose if you want to adopt the design from the edoobox account or website "
+"design . "
+msgstr ""
+" Choisissez si vous voulez adopter le design standard ou le design du site "
+"web."
+
+#: views/view.options.php:187
+#, fuzzy
+#| msgid "Tipp"
+msgid "Tip"
+msgstr "Conseil"
+
+#: views/view.options.php:188
+#, fuzzy
+#| msgid ""
+#| "Sollte bei der Option «BootStrap Design» das Design nicht übernommen "
+#| "werden, kann es am Caching der Seite liegen. Drücken Sie gleichzeitig die "
+#| "Tasten [CTRL], [SHIFT] und [ENTER] auf der Tastatur."
+msgid ""
+"Sollte bei der Option «BootStrap Design» das Design nicht übernommen werden, "
+"kann es am Caching der Seite liegen . Drücken Sie gleichzeitig die Tasten "
+"[CTRL], [SHIFT] und [R] auf der Tastatur . "
+msgstr ""
+"Si el diseño no se adopta cuando se selecciona la opción \"Diseño "
+"BootStrap\", puede deberse al almacenamiento en caché de la página. Pulse "
+"simultáneamente las teclas [CTRL], [SHIFT] y [ENTER] del teclado."
+
+#: views/view.options.php:199
+msgid "Debugger Code"
+msgstr ""
+
+#: views/view.options.php:203
+msgid "Debugger Code Active"
+msgstr ""
+
+#: views/view.options.php:242
+msgid ""
+"Generieren Sie und senden Sie dem edoobox Support Team einen Code, um dem "
+"Support Einsicht in Ihre Plugin Konfiguration zu geben."
+msgstr ""
+
+#: views/view.options.php:265
+msgid "Activate Shortcode Pro. We do not recommend using this feature anymore!"
+msgstr ""
+
+#: views/view.page-indexing.php:12
+msgid ""
+"To optimize the loading time of Wordpress pages, all pages containing an "
+"edoobox plugin shortcode are indexed in advance."
+msgstr ""
+"Pour optimiser le temps de chargement des pages Wordpress, toutes les pages "
+"contenant un shortcode de plugin edoobox sont indexées à l'avance."
+
+#: views/view.page-indexing.php:14
+msgid ""
+"All pages that contain an edoobox shortcode are listed here. If a page is "
+"missing, newly added or incorrectly identified, click on the button \"Search "
+"All Pages\" to re-index the pages."
+msgstr ""
+"Toutes les pages qui contiennent un shortcode edoobox sont listées ici. Si "
+"une page est manquante, nouvellement ajoutée ou incorrectement identifiée, "
+"cliquez sur le bouton \"Rechercher toutes les pages\" pour réindexer les "
+"pages."
+
+#: views/view.page-indexing.php:28
+msgid "Search All Pages"
+msgstr "Rechercher dans toutes les pages"
+
+#: views/view.page-indexing.php:60
+msgid "View Post"
+msgstr "Voir l'article"
+
+#: views/view.page-indexing.php:71
+msgid "Edit Post"
+msgstr "Editer l'article"
+
+#: views/view.page-indexing.php:77
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: views/view.shortcode-pro.php:13
+msgid ""
+"With the Shortcode Pro you have the possibility to highlight your next "
+"offers at a place defined by you (e.g. on the start page) shortly before the "
+"start. In the variable \"limit\" define the number of offers that will be "
+"displayed. With HTML knowledge you can also personalise them optically and "
+"create You will find the appropriate variables under \"Example variables / "
+"extend values\". We provide you with two templates. The template table and "
+"list view cannot be changed, but can be used for your own template."
+msgstr ""
+"Avec le Shortcode Pro, vous avez la possibilité de mettre en évidence vos "
+"prochaines offres à un endroit défini par vous (par exemple sur la page "
+"d'accueil) peu avant le départ. Dans la variable \"limite\", définissez le "
+"nombre d'offres qui seront affichées. Avec la connaissance du HTML, vous "
+"pouvez également les personnaliser optiquement et créer Vous trouverez les "
+"variables appropriées sous \"Variables d'exemple / étendre les valeurs\". "
+"Nous vous fournissons deux modèles. Le tableau et la liste des modèles ne "
+"peuvent pas être modifiés, mais peuvent être utilisés pour votre propre "
+"modèle."
+
+#: views/view.shortcode-pro.php:14
+msgid "Below you can see a list of variables that are usable in the templates."
+msgstr ""
+"Vous trouverez ci-dessous une liste des variables qui sont utilisables dans "
+"les modèles."
+
+#: views/view.shortcode-pro.php:16
+msgid ""
+"The variables are white-space sensitive, meaning that they need a space "
+"between the variable and the double brackets like this --> {{ variable }}"
+msgstr ""
+"Les variables sont sensibles à l'espace, ce qui signifie qu'elles ont besoin "
+"d'un espace entre la variable et les doubles crochets comme suit : <pre "
+"class=\"inline\"><code>{{variable }}</code></pre>"
+
+#: views/view.shortcode-pro.php:18
+msgid "Copy the following shortcode and paste it into your desired page."
+msgstr "Copiez le shortcode suivant et collez-le dans la page souhaitée."
+
+#: views/view.shortcode-pro.php:24
+msgid "Your Shortcode:"
+msgstr "Votre shortcode :"
+
+#: views/view.shortcode-pro.php:31
+msgid "the shortcode type"
+msgstr "le type de shortcode"
+
+#: views/view.shortcode-pro.php:35
+msgid "the ammount of events to show. (1-X)"
+msgstr "la quantité d'événements à montrer. (1-X)"
+
+#: views/view.shortcode-pro.php:38
+msgid "the template name that should be used."
+msgstr "le nom du modèle qui doit être utilisé."
+
+#: views/view.shortcode-pro.php:50
+msgid "copy shortcode"
+msgstr "copier le shortcode"
+
+#: views/view.shortcode-pro.php:64
+msgid "Expand example variables / values"
+msgstr "Développer les exemples de variables / valeurs"
+
+#: views/view.shortcode-pro.php:94
+msgid ""
+"Using 'name' the variable would look like this in the template: {{ name }} "
+"and output: 'Event One'"
+msgstr ""
+"En utilisant 'name', la variable ressemblerait à ceci dans le modèle : "
+"{{ name }} et sortie : 'Event One'"
+
+#: views/view.shortcode-pro.php:96
+msgid ""
+"Any returned variable from the v1/offers API is automatically added to "
+"usable template-variables."
+msgstr ""
+"Toute variable retournée par l'API v1/offers est automatiquement ajoutée aux "
+"variables modèles utilisables."
+
+#: views/view.shortcode-pro.php:107
+msgid "Base and custom templates"
+msgstr "Modèles de base et modèles personnalisés"
+
+#: views/view.shortcode-pro.php:121
+msgid "Select Template"
+msgstr "Sélectionner un modèle"
+
+#: views/view.shortcode-pro.php:133
+msgid "Select"
+msgstr "Sélectionnez"
+
+#: views/view.shortcode-pro.php:137
+msgid "\"List\" View - Listenansicht (default/fallback)"
+msgstr "Vue \"liste\" (par défaut/retour)"
+
+#: views/view.shortcode-pro.php:141
+msgid "\"Table\" View - Tabellenansicht"
+msgstr "Vue \"Table\""
+
+#: views/view.shortcode-pro.php:158
+msgid "Template Name:"
+msgstr "Nom du modèle :"
+
+#: views/view.shortcode-pro.php:178
+msgid ""
+"If there is already a saved template with that name, it will be overwritten."
+msgstr "S'il existe déjà un modèle enregistré portant ce nom, il sera écrasé."
+
+#: views/view.shortcode-pro.php:308
+msgid ""
+"\" is a base template. Please do not use the base templates predefined by "
+"edoobox as template names.\""
+msgstr ""
+"\" est un modèle de base. Veuillez ne pas utiliser les modèles de base "
+"prédéfinis par edoobox comme noms de modèles.\""
+
+#. Plugin Name of the plugin/theme
+msgid "Booking System Edoobox"
+msgstr "Système de réservation edoobox"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+#| msgid "https://www.edoobox.com"
+msgid "https://www.edoobox.com/wordpress-plugin"
+msgstr "https://www.edoobox.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Online booking system – Advertise your courses, seminars, and events easily!"
+msgstr ""
+"Système de réservation en ligne - Annoncez facilement vos cours, séminaires "
+"et événements !"
+
+#. Author of the plugin/theme
+msgid "edoobox"
+msgstr "edoobox"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+#| msgid "https://www.edoobox.com"
+msgid "https://edoobox.com"
+msgstr "https://www.edoobox.com"
+
+#~ msgid "edoobox Online Booking System - Options"
+#~ msgstr "Système de réservation en ligne edoobox - Options"
+
+#~ msgid ""
+#~ "2. Copy your account code and public key from your edoobox account. You "
+#~ "will find these\n"
+#~ "Information Under the account Shortcut (Top Left)> Settings> API Access "
+#~ "Management> Public Key."
+#~ msgstr ""
+#~ "2. copiez l'abréviation de votre compte et la clé Privat et secrète de "
+#~ "votre compte edoobox. Vous trouverez ces informations sous Raccourcis de "
+#~ "compte (En haut à gauche) > Paramètres > Gestion des accès à l'API."
+
+#~ msgid "edoobox Online Booking System - Page Indexing"
+#~ msgstr "Système de réservation en ligne edoobox - Options"
+
+#~ msgid "Error. Please scan the pages manually."
+#~ msgstr "Erreur. Veuillez scanner les pages manuellement."
+
+#~ msgid "edoobox Online Booking System - Shortcode Pro"
+#~ msgstr "Système de réservation en ligne edoobox - Shortcode Pro"
+
+#~ msgid ""
+#~ "<div class=\"bg-blue-100 border border-solid border-blue-700 mb-8 p-4 "
+#~ "rounded text-blue-700\"><strong>ℹ️ Note</strong><br>If you would like to "
+#~ "embed your standard offer into your website, use the shortcode from the "
+#~ "edoobox tool. <a class=\"text-blue-700 underline\" href=\"https://docs."
+#~ "edoobox.com/knowledge-base/wordpress-website-einbinden-wp-plugin-iframe/"
+#~ "\" target=\"_blank\">Go here for instructions.</a></div><div class=\"flex "
+#~ "items-center\"><h2 class=\"mr-4\">Do you want to create a special display?"
+#~ "</h2><div class=\"bg-purple-100 border border-solid border-purple-700 "
+#~ "px-2 py-0.5 rounded text-xs text-purple-700\">Developers only</div></"
+#~ "div><div>With the Shortcode Pro you have the possibility, at a place "
+#~ "defined by them (for example, On the home page), to highlight their next "
+#~ "offers just before the launch. Define in the variable <pre "
+#~ "class=\"inline\"><code>limit</code></pre> the number of offers that are "
+#~ "displayed. With HTML knowledge you can also personalize this visually and "
+#~ "generate your own templates. You can find the appropriate variables under "
+#~ "<strong>example variables / extend values</strong>. We provide them with "
+#~ "two templates. The Table View / List View template cannot be modified, "
+#~ "but can be used for your own template.</div>"
+#~ msgstr ""
+#~ "<div class=\"edoobox-notice is-info mb-4\"><strong>ℹ️ Note</strong><br>Si "
+#~ "vous souhaitez intégrer votre offre standard sur votre site web, utilisez "
+#~ "le shortcode de l'outil edoobox. <a class=\"text-blue-700 underline\" "
+#~ "href=\"https://docs.edoobox.com/knowledge-base/wordpress-website-"
+#~ "einbinden-wp-plugin-iframe/\" target=\"_blank\">Aller ici pour les "
+#~ "instructions.</a></div>\n"
+#~ "\n"
+#~ "<div class=\"flex items-center\">\n"
+#~ "<h2 class=\"mr-4\">Voulez-vous créer un affichage spécial ? </h2>\n"
+#~ "<div class=\"edoobox-tag is-accent\">Développeurs uniquement</div>\n"
+#~ "</div>\n"
+#~ "\n"
+#~ "<div>Avec le Shortcode Pro vous avez la possibilité, à un endroit défini "
+#~ "par eux (par exemple, Sur la page d'accueil), de mettre en avant leurs "
+#~ "prochaines offres juste avant le lancement. Définissez dans la variable "
+#~ "<pre class=\"inline\"><code>limit</code></pre> le nombre d'offres qui "
+#~ "sont affichées. Avec des connaissances en HTML, vous pouvez également "
+#~ "personnaliser cela visuellement et générer vos propres modèles. Vous "
+#~ "trouverez les variables appropriées sous <strong>variables exemples / "
+#~ "valeurs étendues</strong>. Nous les fournissons avec deux modèles. Le "
+#~ "modèle Table View / List View ne peut pas être modifié, mais peut être "
+#~ "utilisé pour votre propre modèle.</div>"
+
+#~ msgid ""
+#~ "The variables are space sensitive, which means they need a space between "
+#~ "the variable and the double brackets as follows: <pre "
+#~ "class=\"inline\"><code>{{ variable }}</code></pre>"
+#~ msgstr ""
+#~ "Les variables sont sensibles à l'espace, ce qui signifie qu'elles ont "
+#~ "besoin d'un espace entre la variable et les doubles crochets comme suit : "
+#~ "<pre class=\"inline\"><code>{{variable }}</code></pre>"
+
+#~ msgid "edoobox Online Booking System - Caching"
+#~ msgstr "Système de réservation en ligne edoobox - Caching"
+
+#~ msgid "edoobox Booking System"
+#~ msgstr "système de réservation Edoobox"
+
+#~ msgid "Load a preset"
+#~ msgstr "Charger un préréglage"
+
+#~ msgid "Save as (name):"
+#~ msgstr "Enregistrer sous (nom) :"
+
+#~ msgid "\" is valid.\""
+#~ msgstr "\" est valable.\""
+
+#~ msgid ""
+#~ "Used to specify the order in which the functions associated with a "
+#~ "particular action are executed. Lower numbers correspond with earlier "
+#~ "execution, and functions with the same priority are executed in the order "
+#~ "in which they were added to the action."
+#~ msgstr ""
+#~ "Utilisé pour spécifier l'ordre dans lequel les fonctions associées à une "
+#~ "action particulière sont exécutées. Les numéros inférieurs correspondent "
+#~ "à une exécution antérieure, et les fonctions ayant la même priorité sont "
+#~ "exécutées dans l'ordre dans lequel elles ont été ajoutées à l'action."
+
+#~ msgid "Default value: 10"
+#~ msgstr "Valeur par défaut : 10"
+
+#~ msgid ""
+#~ "Warning: Edoobox currently only supports a single shortcode per page. "
+#~ msgstr ""
+#~ "Avertissement : Edoobox ne supporte actuellement qu'un seul shortcode par "
+#~ "page. "
+
+#~ msgid "You have "
+#~ msgstr "Vous avez "
+
+#~ msgid " too many."
+#~ msgstr " trop nombreux."
+
+#~ msgid "Edoobox Pages"
+#~ msgstr "Système edoobox"
+
+#~ msgid "Pages Containing Edoobox Shortcodes"
+#~ msgstr "Pages contenant les codes Edoobox"
+
+#, fuzzy
+#~ msgid "Edoobox System"
+#~ msgstr "Système edoobox"
+
+#~ msgid " Edoobox Account Alias"
+#~ msgstr " Raccourcis de compte edoobox"
+
+#~ msgid "Edoobox URL Insert / Change"
+#~ msgstr "Edoobox URL Insérer / Modifier"
+
+#~ msgid "<p>Enter preview URL of Edoobox</p><br />"
+#~ msgstr ""
+#~ "<p> Entrez l'URL du plugin d'Edoobox. Vous pouvez les trouver dans "
+#~ "l'intégration iFrame sous le bouton \"Plugin Link\"</p><<br />>>."
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Language"
+#~ msgstr "Langue"
+
+#~ msgid ""
+#~ "<br /><p>To integrate the correct edoobox proceed as follows:</p><p>1. "
+#~ "Right-click in the left navigation in Edoobox on your category <br />or "
+#~ "course you are integrating want.</p><p>2. Click Preview Share</p><p>3. "
+#~ "Copy the link of the standard view into the field</p>"
+#~ msgstr ""
+#~ "<br /><p>Pour ajouter correctement edoobox, suivez ces étapes: </p><p>1. "
+#~ "cliquez avec le bouton droit de la souris dans la barre de navigation de "
+#~ "gauche dans edoobox, sur la catégorie de votre choix<br />ou sur l'offre "
+#~ "que vous souhaitez ajouter. Cliquez sur Prévisualiser & Partager</p><p>3, "
+#~ "copiez l'URL sous \"URL du plugin\"</p>."
